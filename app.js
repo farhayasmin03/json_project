@@ -124,7 +124,8 @@ for (var i = 0; i < biggestKey; i++) {
     console.log("sameData")
     console.log(sameData)
     
-  } else {
+  } if(keyObj1[i] != keyObj2[i] || valueObj1[i] != valueObj2[i]){
+    differentData.push(keyObj1[i], valueObj1[i])
     console.log("differentData")
     console.log(differentData)
     
